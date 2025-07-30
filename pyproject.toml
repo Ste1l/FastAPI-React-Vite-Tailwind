@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-users-redis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.16.4",
+    "asyncpg>=0.30.0",
+    "fastapi-users[redis,sqlalchemy]>=14.0.1",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+]
